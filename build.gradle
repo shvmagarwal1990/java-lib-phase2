@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'org.example'
+group = 'com.example'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -11,7 +11,6 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
 publishing{
